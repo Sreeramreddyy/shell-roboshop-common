@@ -10,6 +10,7 @@ LOG_FILE="$LOGS_FOLDER/$SCRIPT_NAME.log" # /var/log/shell-roboshop/
 START_TIME=$(date +%s)
 SCRIPT_DIR=$PWD
 MONGODB_HOST=mongodb.jashvika.online
+MYSQL_HOST=mysql.jashvika.online
 
 mkdir -p $LOGS_FOLDER
 
